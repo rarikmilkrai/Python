@@ -1,2 +1,31 @@
 nome = input('Qual o seu nome? ')
 print('Olá, ' ,nome , 'prazer em te conhecer')
+
+# data formatada
+dia = input ('Qual o dia do seu nascimento? ')
+mes = input ('Qual o mes do seu nascimento? ')
+ano = input ('Qual o ano do seu nascimento? ')
+print('Voçe nasceu no dia ', dia,'de ', mes,'de ', ano)
+
+# soma de dois numeros
+n1 = int(input('Digite o primeiro numero? '))
+n2 = int(input('Digite o segundo numero? '))
+print('A soma é: ',n1+n2)
+
+# dobro, triplo e raiz quadrada
+n = int(input('Digite um numero: '))
+d = n * 2
+t = n * 3
+r = n **(1/2)
+print('analizando o numero ', n,'o seu dobro é {}, o seu triplo é {} e sua Raiz quadrada é {}'.format(d,t,r))
+
+# media aritmetica
+n1 = float(input('Digite a primeira nota: '))
+n2 = float(input('Digite a segunda nota: '))
+print('a media entre {:.1f} e {:.1f} é igual a:{:.1f} '.format(n1, n2, (n1+n2) / 2))
+
+# antecessor e sucessor
+n = int(input('Digite um número: '))
+a = n -1
+s = n + 1
+print('Analisando o valor {}, seu antecessor é {} e o sucessor é {}'.format(n, a, s))
