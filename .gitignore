@@ -45,3 +45,34 @@ print('milimetros: ', milimetros)
 print('decametros: ', decametro)
 print('hectometros: ', hectometro)
 print('kilometros: ', kilometro)
+
+# Tabuada
+num = int(input('Digite um numero para ver sua tabuada: '))
+print('-' * 12)
+print('{} x {:2} = {}'.format(num, 1, num*1))
+print('{} x {:2} = {}'.format(num, 2, num*2))
+print('{} x {:2} = {}'.format(num, 3, num*3))
+print('{} x {:2} = {}'.format(num, 4, num*4))
+print('{} x {:2} = {}'.format(num, 5, num*5))
+print('{} x {:2} = {}'.format(num, 6, num*6))
+print('{} x {:2} = {}'.format(num, 7, num*7))
+print('{} x {:2} = {}'.format(num, 8, num*8))
+print('{} x {:2} = {}'.format(num, 9, num*9))
+print('{} x {} = {}'.format(num, 10, num*10))
+print('-' * 12)
+
+#conversor de moedas
+real = float(input('Quanto dinheiro voce tem na carteira?R$: '))
+dolar = float(input('insira o cambio do dollar no dia atual US$: '))
+dolar = real / dolar
+print('=' * 60)
+print('Com R$: {:.2f} você consegue comprar: {:.2f} US$'.format(real, dolar))
+print('=' * 60)
+
+#pintando uma parede
+largura = float(input('Qual a largura da sua parede: '))
+altura = float(input('Qual a altura da sua parede: '))
+area = largura * altura
+print(' Sua parede tem uma dimensão de {} x {}, sua área é de: {}m². '.format(largura, altura, area))
+tinta = area / 2
+print('Para pintar sua parede serão necessarios: {:.3f} Litros de tinta'.format(tinta))
