@@ -76,3 +76,22 @@ area = largura * altura
 print(' Sua parede tem uma dimensão de {} x {}, sua área é de: {}m². '.format(largura, altura, area))
 tinta = area / 2
 print('Para pintar sua parede serão necessarios: {:.3f} Litros de tinta'.format(tinta))
+
+#Reajuste de salario
+print('=' * 100)
+salario = float(input('Qual o salário do Funcionário: R$ '))
+print('=' * 100)
+reajuste = float(input('Qual o valor do reajuste em %: '))
+novo = salario  + (salario * reajuste / 100)
+print('=' * 100)
+print('O salario do funcionario de R${}, teve um reajuste de %{} ficando com um salario atual de R${}'.format(salario, reajuste, novo)
+
+#Calculando desconto
+print('=' * 100)
+valor = float(input('Digite o preço do produto:R$ '))
+print('=' * 100)
+desconto = float(input('Digite o valor do desconto:% '))
+print('=' * 100)
+preco = valor - (valor * desconto / 100)
+print('O seu produto no valor de R$ {} . Teve um desconto de: {}%. Ficando com um preço final de: R${} '.format(valor, desconto, preco))
+print('=' * 100)
